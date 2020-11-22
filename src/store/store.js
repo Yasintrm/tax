@@ -1,5 +1,5 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import magazineReducer from '../src/features/csvTable/csvTableSlice';
+import magazineReducer from '../features/csvTable/csvTableSlice';
 
 
 //Application redux store
