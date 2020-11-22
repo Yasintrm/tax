@@ -16,6 +16,7 @@ body {
 }
 
 .frame-conditions {
+    display: none;
     padding: 1em 2em;
     font-size: 13px;
     background: #3e3e3e;

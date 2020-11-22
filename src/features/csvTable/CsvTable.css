@@ -1,0 +1,56 @@
+.table {
+    border-collapse: collapse;    
+    margin: 10px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #398b93;
+    
+}
+
+.table tr, .table th, .table td {
+    border: solid 1px gray;
+    padding: 10px;
+    
+}
+
+.table th {
+    text-transform: capitalize;
+    min-width: 150px;
+    background-color: #bec6ff;
+}
+
+.table td {
+    vertical-align: top;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f8f6ff;
+}
+
+fieldset {
+    width: 90%;
+    margin: 20px auto;
+    background-color:honeydew;
+    padding-top: 20px;
+}
+
+legend {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.message {
+    font-weight: bold;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.recordcount {
+    text-align: right;
+    font-weight: bold;
+    padding: 10px;
+}
